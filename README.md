@@ -19,10 +19,7 @@ A native Fedora GNOME application for manually backing up selected folders to Go
 
 ## Screenshots
 
-*Add your screenshots to the `screenshots/` directory and reference them here:*
-
 ![Main Window](screenshots/main-window.png)
-![Settings Dialog](screenshots/settings.png)
 
 ## Installation
 
