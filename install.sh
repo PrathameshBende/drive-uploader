@@ -6,7 +6,7 @@ APP_NAME="gdrive-backup-manager"
 INSTALL_DIR="$INSTALL_PREFIX/$APP_NAME"
 DESKTOP_FILE="/usr/share/applications/$APP_NAME.desktop"
 ICON_DIR="/usr/share/icons/hicolor/scalable/apps"
-ICON_FILE="$ICON_DIR/$APP_NAME.svg"
+ICON_FILE="$ICON_DIR/gdrive-backup-manager.png"
 
 echo "=== Google Drive Backup Manager Installer ==="
 
@@ -39,7 +39,7 @@ sudo sed -i "s|Exec=python3 /opt/$APP_NAME/run.py|Exec=python3 $INSTALL_DIR/run.
 # 5. Install Icon
 echo "Installing icon..."
 sudo mkdir -p "$ICON_DIR"
-sudo cp resources/icon.svg "$ICON_FILE"
+sudo cp resources/gdrive-backup-manager.png "$ICON_FILE"
 
 # 6. Update desktop database
 sudo update-desktop-database

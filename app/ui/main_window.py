@@ -24,6 +24,9 @@ class MainWindow(Adw.ApplicationWindow):
         
         self.set_title("Google Drive Backup Manager")
         self.set_default_size(800, 600)
+        
+        # Set the window icon using the name of the icon we installed
+        self.set_icon_name("gdrive-backup-manager")
 
         self._build_ui()
         self._load_folders()
