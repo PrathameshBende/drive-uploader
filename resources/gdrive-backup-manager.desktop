@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Google Drive Backup Manager
+Comment=Manually back up selected folders to Google Drive
+Exec=bash -c "cd /opt/gdrive-backup-manager && python3 run.py"
+Icon=gdrive-backup-manager
+Terminal=false
+Type=Application
+Categories=Utility;System;
+Keywords=Backup;Google Drive;Cloud;

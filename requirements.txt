@@ -1,0 +1,4 @@
+# Note: On Fedora, PyGObject and GTK4/Libadwaita bindings should be installed 
+# via system packages (sudo dnf install python3-gobject gtk4 libadwaita) 
+# rather than pip to avoid compilation issues.
+PyGObject>=3.44.0
